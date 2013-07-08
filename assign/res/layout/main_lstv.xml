@@ -1,0 +1,13 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rowTextView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/lst_qte_inv"
+    android:gravity="left|center_vertical"
+    android:padding="10dp"
+    android:textColor="#000000"
+    android:textSize="16sp"
+    tools:ignore="SelectableText" >
+
+</TextView>

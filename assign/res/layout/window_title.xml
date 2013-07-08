@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/header_main"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        android:gravity="center_vertical"
+        android:src="@drawable/header" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right|center_vertical"
+        tools:ignore="UseCompoundDrawables" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dip"
+            android:textSize="11dip"
+            tools:ignore="SpUsage"
+            android:textIsSelectable="true" />
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/todo" />
+		<Button
+            android:id="@+id/btnRefresh"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:onClick="PrefSttgs"
+            android:background="@drawable/refresh"
+            android:clickable="true" />
+        <Button
+            android:id="@+id/btnSttgs"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:onClick="PrefSttgs"
+            android:background="@drawable/settings"
+            android:clickable="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

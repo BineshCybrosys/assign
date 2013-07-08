@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Assign</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="search">search</string>
+    <string name="todo">TODO</string>
+    <string name="settings">Settings</string>
+    <string name="myticket">MyTicket</string>
+    <string name="newticket">NewTicket</string>
+    <string name="ticketforme">Ticket For Me</string>
+    <string name="reports">Reports</string>
+    <string name="_">"   "</string>
+    <string name="ticket_to_">"Ticket To"</string>
+    <string name="subject_">"Subject"</string>
+    <string name="description_">"Description"</string>
+    <string name="project_id_">"Project Id"</string>
+    <string name="priority_">"Priority"</string>
+    <string name="colon">" :  "</string>
+    <string name="enter_name">enter name</string>
+    <string name="subject">subject</string>
+    <string name="description">description</string>
+    <string name="id_from_prior_screen">id from prior screen</string>
+    <string name="low_medium_urgent">low/medium/urgent</string>
+    <string name="submit">submit</string>
+    <string name="cancel">cancel</string>
+</resources>
